@@ -1,0 +1,402 @@
+[
+  {
+    "id": "c1-p1-local-market-research-deep-dive",
+    "className": "Business Systems & Growth Ops",
+    "promptNumber": "1",
+    "name": "Local Market Research Deep Dive",
+    "category": "Market Research",
+    "level": "Core",
+    "description": "Research a specific local market (city/neighborhood + price band) to understand trends, days on market, inventory, and opportunities.",
+    "text": "You are my real estate market research analyst. I work primarily in [CITY / NEIGHBORHOOD] and I want to understand the current market for [PROPERTY TYPE, e.g., single-family homes] in the [PRICE RANGE] price range.\n\nTASK:\n1) Give me a plain-language summary of the current market conditions (buyer’s vs seller’s, inventory, days on market, pricing trends).\n2) List 5–7 key data points an agent should watch (for example, list-to-sale price ratios, absorption rate, months of inventory, average days on market, median price).\n3) Suggest 3–5 talking points I can use when explaining this market to buyers and 3–5 for sellers.\n4) Suggest 2–3 strategic opportunities for my business in this segment (for example, niches, messaging angles, or types of clients to focus on)."
+  },
+  {
+    "id": "c1-p2-evergreen-listing-presentation-builder",
+    "className": "Business Systems & Growth Ops",
+    "promptNumber": "2",
+    "name": "Evergreen Listing Presentation Builder",
+    "category": "Listing Presentations",
+    "level": "Core",
+    "description": "Build a reusable, non-address-specific listing presentation deck that explains your process, value, and marketing plan.",
+    "text": "You are my listing presentation architect. Help me create an evergreen listing presentation I can use with any seller, not tied to a specific property.\n\nCONTEXT:\nMarket: [CITY / AREA].\nMy brand and positioning: [DESCRIBE YOUR BRAND / NICHE].\nMy core services: [LIST SERVICES – staging guidance, marketing, pricing strategy, negotiation, etc.].\n\nTASK:\n1) Outline a slide-by-slide structure for an evergreen listing presentation that covers: who I am, proof/credibility, my process, pricing strategy, marketing plan, communication plan, and what happens after the listing goes live.\n2) Draft sample text for each section that is clear, confident, and seller-friendly.\n3) Highlight any slides where I should plug in local market stats or recent wins, and label those clearly as placeholders like [LOCAL STATS HERE] or [RECENT LISTING EXAMPLE HERE].\n4) Format your answer so I can easily paste each section into Gamma or Canva."
+  },
+  {
+    "id": "c1-p3-property-specific-listing-presentation-builder",
+    "className": "Business Systems & Growth Ops",
+    "promptNumber": "3",
+    "name": "Property-Specific Listing Presentation Builder",
+    "category": "Listing Presentations",
+    "level": "Core",
+    "description": "Turn MLS data and notes about a specific property into a tailored listing presentation.",
+    "text": "You are my listing presentation builder for a specific property. I will give you details about a subject property and the seller.\n\nCONTEXT:\nProperty address: [ADDRESS].\nBasic details: [BEDS/BATHS/SQFT/LOT/FEATURES].\nSeller situation & goals: [DESCRIBE].\nTarget buyer profile: [DESCRIBE].\nMLS or CMA notes: [PASTE ANY NOTES OR KEY COMPS].\n\nTASK:\n1) Propose a slide-by-slide outline for a property-specific listing presentation that blends my evergreen content with this property’s unique strengths.\n2) Draft suggested text for key slides: property overview, target buyer, pricing strategy, marketing plan (with focal features), and launch timeline.\n3) Suggest 3–5 compelling ways to position this specific property versus the competition.\n4) Clearly mark any placeholders where I should insert photos, stats, or custom graphics."
+  },
+  {
+    "id": "c1-p4-evergreen-buyer-consultation-deck-builder",
+    "className": "Business Systems & Growth Ops",
+    "promptNumber": "4",
+    "name": "Evergreen Buyer Consultation Deck Builder",
+    "category": "Buyer Presentations",
+    "level": "Core",
+    "description": "Create a reusable buyer presentation explaining process, expectations, and your value.",
+    "text": "You are my buyer consultation designer. Help me build an evergreen buyer presentation I can use with new buyers.\n\nCONTEXT:\nMarket: [CITY / AREA].\nTypical buyer types I work with: [FIRST-TIME / MOVE-UP / INVESTORS / RELOCATION, etc.].\nMy buyer value propositions: [LIST].\n\nTASK:\n1) Outline a slide-by-slide structure for a buyer consultation deck that includes: who I am, how the buying process works, financing basics, home search strategy, making offers, inspections & appraisal, closing, and life after closing.\n2) Draft friendly, clear language for each section that sets expectations and positions me as their guide.\n3) Add 3–5 FAQ slides with common buyer questions and suggested answers.\n4) Indicate where I should insert local data or lender partner info with placeholders like [LOCAL LENDER INTRO HERE]."
+  },
+  {
+    "id": "c1-p5-agent-mode-market-update-prompt",
+    "className": "Business Systems & Growth Ops",
+    "promptNumber": "5",
+    "name": "Agent Mode Market Update Prompt",
+    "category": "Market Research",
+    "level": "Core",
+    "description": "Ask ChatGPT (in agent mode) to generate daily or weekly market updates you can reuse.",
+    "text": "You are my AI market update assistant. Act as a real estate market strategist for [CITY / AREA] focused on [PROPERTY TYPE / PRICE RANGE].\n\nTASK:\n1) Generate a concise [DAILY / WEEKLY] market update I can share with my database that covers new listings, pending sales, closed sales, and any noticeable shifts (for example, price reductions, days on market).\n2) Write it in my voice: [DESCRIBE YOUR TONE, e.g., calm, data-informed, a bit playful].\n3) Include 3–5 bullets and a short 2–3 sentence intro + outro.\n4) At the end, suggest 2–3 social media post hooks I could use to share this update as a video or carousel."
+  },
+  {
+    "id": "c1-p6-agent-value-proposition-builder",
+    "className": "Business Systems & Growth Ops",
+    "promptNumber": "6",
+    "name": "Agent Value Proposition & Differentiation Builder",
+    "category": "Positioning",
+    "level": "Advanced",
+    "description": "Clarify your unique value and turn it into a reuseable positioning block for prompts and presentations.",
+    "text": "You are my positioning and copy coach. Help me clarify and articulate my value as a real estate agent.\n\nCONTEXT:\nMarket: [CITY / AREA].\nIdeal clients: [DESCRIBE].\nMy experience and strengths: [LIST].\nWhat I believe about serving clients: [LIST 3–5 BELIEFS].\n\nTASK:\n1) Craft a clear value proposition statement (2–3 sentences) that differentiates me from other agents.\n2) Turn that into a short paragraph I can paste into future prompts so AI writes in alignment with my brand.\n3) Create 3–5 bullet “proof points” (for example, stats, stories, testimonials) I can plug into listing and buyer presentations.\n4) At the end, give me a shortened “Agent Bio Prompt Block” I can reuse in other prompts whenever I want AI to speak as me."
+  },
+  {
+    "id": "c1-p7-mls-to-gamma-presentation-prompt",
+    "className": "Business Systems & Growth Ops",
+    "promptNumber": "7",
+    "name": "MLS-to-Gamma Presentation Prompt",
+    "category": "Systems",
+    "level": "Advanced",
+    "description": "Feed MLS details into AI and get a Gamma-ready outline or content block for a listing/buyer presentation.",
+    "text": "You are my slide deck architect. I will paste MLS details and notes about a property.\n\nTASK:\n1) Turn the information into a structured outline suitable for a Gamma presentation, including sections for: property overview, key features, neighborhood highlights, pricing context, and next steps.\n2) For each section, propose bullet points or short paragraphs I can directly paste into Gamma.\n3) At the end, suggest 2–3 slide ideas that would make this presentation more compelling (for example, map slide, “day in the life” slide, before/after potential)."
+  },
+  {
+    "id": "c1-p8-automation-idea-and-sop-starter",
+    "className": "Business Systems & Growth Ops",
+    "promptNumber": "8",
+    "name": "Automation Idea & SOP Starter",
+    "category": "Automation",
+    "level": "Advanced",
+    "description": "Identify one simple automation that removes manual steps from your listing/buyer workflows and outline it.",
+    "text": "You are my systems and automation consultant. Based on the workflow below, help me identify one simple automation that will save me time.\n\nWORKFLOW:\n[DESCRIBE YOUR CURRENT PROCESS FOR LISTINGS OR BUYERS].\n\nTASK:\n1) Identify 2–3 potential automation opportunities (for example, trigger emails, task creation, status updates) using tools like Zapier, CRM automations, or calendar rules.\n2) Choose one “low-hanging fruit” automation and outline it step-by-step as a simple SOP.\n3) Describe what tools I’d need and what triggers/outputs to use.\n4) Write a one-paragraph explanation I can give to my admin or tech person describing what I want built."
+  },
+  {
+    "id": "c2-p1-mvvbp-extraction-and-summary",
+    "className": "Mastering the Language of AI",
+    "promptNumber": "1",
+    "name": "MVVBP Extraction & Summary",
+    "category": "Identity & Voice",
+    "level": "Core",
+    "description": "Extract and clarify your Mission, Vision, Values, Beliefs, and Perspective so AI can align with who you are.",
+    "text": "You are my business clarity coach. Help me define my Mission, Vision, Values, Beliefs, and Perspective (MVVBP) for my real estate business.\n\nCONTEXT:\nI serve [TYPE OF CLIENTS] in [CITY / AREA].\nMy long-term goals: [LIST].\nMy current challenges: [LIST].\n\nTASK:\n1) Ask me 5–7 focused questions to help surface my mission, vision, values, beliefs, and perspective.\n2) Based on my answers, summarise my MVVBP in clear bullet points.\n3) Create a short “MVVBP Prompt Block” I can paste into future prompts so AI knows how to think and speak like me."
+  },
+  {
+    "id": "c2-p2-brand-voice-and-persona-builder",
+    "className": "Mastering the Language of AI",
+    "promptNumber": "2",
+    "name": "Brand Voice & Persona Builder",
+    "category": "Identity & Voice",
+    "level": "Core",
+    "description": "Define your tone, style, and persona so AI consistently speaks as “you.”",
+    "text": "You are a brand voice specialist. I want to define my brand voice as a real estate agent so AI outputs sound like me.\n\nCONTEXT:\nMy typical clients: [DESCRIBE].\nWords people use to describe me: [LIST].\nHow I want to sound (tone): [FOR EXAMPLE, warm, direct, encouraging, data-savvy].\n\nTASK:\n1) Create a brand voice profile that includes: tone, style, vocabulary, and what to avoid.\n2) Provide 3 short “voice samples” of me explaining the same thing (for example, what it’s like to buy a home with me).\n3) Turn this into a “Brand Voice Prompt Block” I can paste into any prompt when I want responses in my voice."
+  },
+  {
+    "id": "c2-p3-prompt-blueprint-role-goal-inputs-constraints",
+    "className": "Mastering the Language of AI",
+    "promptNumber": "3",
+    "name": "Prompt Blueprint – Role, Goal, Inputs, Constraints",
+    "category": "Prompt Design",
+    "level": "Core",
+    "description": "Teach AI a reusable prompt structure and generate a template you can reuse.",
+    "text": "You are my AI prompt engineer. Help me build a reusable prompt template I can use for most tasks.\n\nTASK:\n1) Explain briefly the core components of a strong prompt: role, goal, context/inputs, constraints, and output format.\n2) Create a generic template I can reuse, with placeholders like [ROLE], [GOAL], [CONTEXT], [CONSTRAINTS], [OUTPUT FORMAT].\n3) Show 2–3 examples of this template applied to real estate scenarios (for example, writing a listing description, creating a follow-up email sequence, summarising a contract).\n4) At the end, give me a short “Prompt Blueprint” I can paste into future chats before my instructions."
+  },
+  {
+    "id": "c2-p4-complex-task-decomposer",
+    "className": "Mastering the Language of AI",
+    "promptNumber": "4",
+    "name": "Complex Task Decomposer",
+    "category": "Prompt Design",
+    "level": "Core",
+    "description": "Break big, fuzzy tasks into sequenced mini-prompts/steps.",
+    "text": "You are my AI project planner. I will describe a complex task I want help with.\n\nTASK:\n1) Ask me 3–5 clarifying questions to understand the goal, timeline, and constraints.\n2) Break the task into 5–10 smaller steps that can each be turned into a prompt.\n3) For each step, write a suggested mini-prompt I can paste into ChatGPT.\n4) At the end, summarise the full workflow in a checklist I can save."
+  },
+  {
+    "id": "c2-p5-cross-model-prompt-adapter",
+    "className": "Mastering the Language of AI",
+    "promptNumber": "5",
+    "name": "Cross-Model Prompt Adapter",
+    "category": "Tools & Models",
+    "level": "Advanced",
+    "description": "Translate a core prompt so it works well in ChatGPT, Claude, Perplexity, and Gemini.",
+    "text": "You are an AI model translator. I want to take one core prompt and adapt it for different AI tools (ChatGPT, Claude, Perplexity, Gemini).\n\nTASK:\n1) I will paste a “base prompt” below. Rewrite this prompt in four versions, optimised for: ChatGPT, Claude, Perplexity, and Gemini.\n2) For each version, keep the goal the same but adjust style or instructions if needed for that tool’s strengths.\n3) Label each version clearly.\n\nBase prompt:\n[PASTE PROMPT HERE]"
+  },
+  {
+    "id": "c2-p6-brainstorm-to-action-plan-prompt",
+    "className": "Mastering the Language of AI",
+    "promptNumber": "6",
+    "name": "Brainstorm to Action Plan Prompt",
+    "category": "Strategy & Planning",
+    "level": "Core",
+    "description": "Turn a brainstorming session into a prioritized, time-bound action plan.",
+    "text": "You are my brainstorming partner and implementation coach. I will paste a list of ideas or random notes related to [TOPIC, for example, lead generation, client events, marketing].\n\nTASK:\n1) Group the ideas into 3–5 themes or categories.\n2) For each category, identify the 1–2 ideas with the highest potential impact and/or easiest execution.\n3) Turn those into a 30-day action plan with weekly focus areas.\n4) Present the plan in a clear table with columns: Week, Focus, Tasks, and Notes."
+  },
+  {
+    "id": "c2-p7-agent-mode-automation-idea-generator",
+    "className": "Mastering the Language of AI",
+    "promptNumber": "7",
+    "name": "Agent Mode Automation Idea Generator",
+    "category": "Automation",
+    "level": "Advanced",
+    "description": "Ask agent mode to suggest realistic automations (Zapier/CRM/etc.) based on your current habits.",
+    "text": "You are my AI automation strategist. I want to find simple ways to automate repetitive work in my real estate business using tools like my CRM, email, calendar, and Zapier.\n\nCONTEXT:\nHere’s what I’m currently doing manually each week: [LIST TASKS].\n\nTASK:\n1) Identify 5–10 potential automations that would save me time, grouped into categories like leads, database nurture, transactions, marketing.\n2) For your top 3 recommendations, outline the trigger, action, and tool(s) to use.\n3) Write a short, plain-language description for each automation that I can hand to a tech-savvy assistant to build."
+  },
+  {
+    "id": "c2-p8-simple-business-plan-and-goals-prompt",
+    "className": "Mastering the Language of AI",
+    "promptNumber": "8",
+    "name": "Simple Business Plan & Goals Prompt",
+    "category": "Business Planning",
+    "level": "Core",
+    "description": "Use AI to help define 12-month goals and a simple, metric-based plan.",
+    "text": "You are my business planning coach. Help me create a simple, realistic 12-month business plan for my real estate business.\n\nCONTEXT:\nLast 12 months closed transactions: [NUMBER].\nAverage price point: [PRICE].\nGCI: [AMOUNT].\nMy goals for next 12 months: [DESCRIBE].\n\nTASK:\n1) Suggest clear, measurable goals for transactions, GCI, and key leading indicators (for example, contacts made, appointments set).\n2) Break those goals into quarterly and monthly targets.\n3) Propose 3–5 core activities I should commit to weekly, with suggested volumes.\n4) Present everything in a simple one-page-style summary I can copy into a doc."
+  },
+  {
+    "id": "c3-p1-weekly-social-pillars-and-platforms-planner",
+    "className": "AI Marketing Systems",
+    "promptNumber": "1",
+    "name": "Weekly Social Pillars & Platforms Planner",
+    "category": "Content Strategy",
+    "level": "Core",
+    "description": "Define 3–5 content pillars and match them to your main platforms.",
+    "text": "You are my social media content strategist. Help me define a simple weekly content structure based on pillars and platforms.\n\nCONTEXT:\nMarket: [CITY / AREA].\nIdeal audience: [DESCRIBE].\nMain platforms I want to focus on: [e.g., Facebook, Instagram, TikTok, YouTube, Google Business Profile].\n\nTASK:\n1) Identify 3–5 content pillars that make sense for my brand (for example, market updates, local lifestyle, education, client stories, behind-the-scenes).\n2) Create a simple weekly map showing which pillar goes on which platform on which day (for example, M–F).\n3) Suggest 2–3 post ideas under each pillar that fit my audience."
+  },
+  {
+    "id": "c3-p2-one-week-social-content-calendar",
+    "className": "AI Marketing Systems",
+    "promptNumber": "2",
+    "name": "One-Week Social Content Calendar",
+    "category": "Calendars",
+    "level": "Core",
+    "description": "Generate a detailed 7-day social calendar linked to your pillars and platforms.",
+    "text": "You are my content calendar builder. Using the pillars and platforms below, build a detailed 7-day content calendar.\n\nPILLARS & PLATFORMS:\n[PASTE OUTPUT FROM PROMPT 1].\n\nTASK:\n1) For each day of the week, specify: platform, pillar, post type (reel, story, carousel, static, long-form video, blog/email).\n2) Provide a working title or hook for each post.\n3) Add a short description of what the content should cover.\n4) Present the calendar in a table format."
+  },
+  {
+    "id": "c3-p3-bulk-social-post-generator-csv-friendly",
+    "className": "AI Marketing Systems",
+    "promptNumber": "3",
+    "name": "Bulk Social Post Generator (CSV-Friendly)",
+    "category": "Content Production",
+    "level": "Core",
+    "description": "Generate many caption ideas or post bodies in a CSV-friendly format for bulk upload.",
+    "text": "You are my bulk content generator. I want to create a batch of social posts I can upload into my scheduling tool.\n\nCONTEXT:\nAudience: [DESCRIBE].\nPlatform(s): [LIST].\nContent pillars/post themes: [LIST 3–5 PILLARS].\n\nTASK:\n1) Generate [NUMBER] post ideas in a table with columns: Post Title/Hook, Post Caption (up to 2200 characters), Pillar, Suggested Platform(s).\n2) Use a mix of educational, entertaining, and authority-building angles.\n3) Write captions so they are ready to paste or export into a CSV for bulk upload."
+  },
+  {
+    "id": "c3-p4-hook-and-angle-generator-for-reels",
+    "className": "AI Marketing Systems",
+    "promptNumber": "4",
+    "name": "Hook & Angle Generator for Reels",
+    "category": "Hooks & Copy",
+    "level": "Core",
+    "description": "Create strong hooks and angles for short-form videos on specific topics.",
+    "text": "You are my hook and angle generator for short-form videos. I want to create reels/shorts/TikToks about [TOPIC, for example, “why interest rates aren’t everything” or “3 things to know before buying in CITY”].\n\nTASK:\n1) Generate 20 hook ideas that would stop a scroller in my target audience.\n2) Label each hook as one of: curiosity, contrarian, list/numbered, story, or fear/avoidance.\n3) At the end, suggest 3–5 ways to visually open these videos (what should be on screen in the first 3 seconds)."
+  },
+  {
+    "id": "c3-p5-short-form-video-script-prompt",
+    "className": "AI Marketing Systems",
+    "promptNumber": "5",
+    "name": "Short-Form Video Script Prompt",
+    "category": "Video Scripts",
+    "level": "Core",
+    "description": "Write a simple, punchy script for a 30–60 second reel.",
+    "text": "You are my video scriptwriter. Write a 30–60 second script for a short-form video on this topic: [TOPIC].\n\nAudience: [DESCRIBE].\nPlatform: [INSTAGRAM REELS / TIKTOK / YOUTUBE SHORTS].\n\nTASK:\n1) Start with a strong hook in the first line.\n2) Include 2–4 key points or beats in the middle.\n3) End with a clear call to action (for example, follow, DM, click link).\n4) Format with short lines so it’s easy to read from a phone while recording."
+  },
+  {
+    "id": "c3-p6-long-form-market-update-script",
+    "className": "AI Marketing Systems",
+    "promptNumber": "6",
+    "name": "Long-Form Market Update Script",
+    "category": "Video Scripts",
+    "level": "Advanced",
+    "description": "Create a 3–5 minute market update script you can use for video, podcast, or live.",
+    "text": "You are my long-form content writer. Create a 3–5 minute market update script for [CITY / AREA] focused on [PROPERTY TYPE / PRICE RANGE / BUYER OR SELLER].\n\nTASK:\n1) Structure the script with: attention-grabbing opening, current stats/trends, what this means for buyers/sellers, and what to do next.\n2) Keep the language clear and non-technical.\n3) Include 2–3 analogy or story ideas to make the data relatable.\n4) End with a soft call to action for people who want personalised advice."
+  },
+  {
+    "id": "c3-p7-seo-blog-youtube-outline-prompt",
+    "className": "AI Marketing Systems",
+    "promptNumber": "7",
+    "name": "SEO Blog/YouTube Outline Prompt",
+    "category": "SEO & Long-Form",
+    "level": "Advanced",
+    "description": "Outline a blog post or YouTube video that can rank and educate.",
+    "text": "You are my SEO content strategist. Help me create an outline for a blog post or YouTube video on the topic: [TOPIC, e.g., “Moving to CITY – What You Need to Know”].\n\nAudience: [DESCRIBE].\n\nTASK:\n1) Suggest a working title plus 5 alternative SEO-friendly titles.\n2) Provide an outline with H2/H3 sections that thoroughly cover the topic.\n3) Suggest 5–10 keywords/phrases I should naturally incorporate.\n4) Add a short summary I can use as a description or intro."
+  },
+  {
+    "id": "c3-p8-hashtag-and-keyword-research-prompt",
+    "className": "AI Marketing Systems",
+    "promptNumber": "8",
+    "name": "Hashtag & Keyword Research Prompt",
+    "category": "SEO & Discovery",
+    "level": "Advanced",
+    "description": "Generate hashtag sets and search phrases for discoverability.",
+    "text": "You are my discoverability and hashtag assistant. For the following niche and platforms, suggest hashtags and search phrases:\n\nNiche: [e.g., first-time buyers in CITY].\nPlatforms: [INSTAGRAM / TIKTOK / YOUTUBE / GOOGLE BUSINESS].\n\nTASK:\n1) Suggest 3–5 hashtag sets with a mix of broad, niche, and location-based tags (no more than 15 per set).\n2) Suggest 10–15 search phrases or video titles my ideal client might type when looking for help.\n3) Mark any especially strong phrases with an asterisk."
+  },
+  {
+    "id": "c3-p9-repurpose-one-asset-to-many-formats",
+    "className": "AI Marketing Systems",
+    "promptNumber": "9",
+    "name": "Repurpose One Asset to Many Formats",
+    "category": "Content Repurposing",
+    "level": "Core",
+    "description": "Take one core piece (video, blog, email) and repurpose it across platforms.",
+    "text": "You are my content repurposing strategist. I will paste one core piece of content below (video transcript, blog, or email).\n\nTASK:\n1) Summarise the core idea in 2–3 sentences.\n2) Create:\n   a) 3 reel/short video ideas,\n   b) 3 static/carousel post ideas,\n   c) 1 email subject + outline,\n   d) 1 blog or YouTube video outline,\n   all based on that core idea.\n3) For each repurposed piece, include a suggested hook or title."
+  },
+  {
+    "id": "c3-p10-loom-mini-sop-script-prompt",
+    "className": "AI Marketing Systems",
+    "promptNumber": "10",
+    "name": "Loom Mini-SOP Script Prompt",
+    "category": "Systems & SOPs",
+    "level": "Core",
+    "description": "Write a simple script and bullet outline so you can record a Loom “how-to” video (mini SOP).",
+    "text": "You are my SOP and Loom recording assistant. Help me create a simple script and outline so I can record a Loom mini-SOP for this task: [DESCRIBE TASK, e.g., “pull a quick market update from the MLS,” “prepare a Just Listed social post,” etc.].\n\nTASK:\n1) Outline the steps in clear bullet points in the order I should show them on screen.\n2) Write a short intro and outro script I can say on camera.\n3) Keep everything simple enough that a new assistant could follow the Loom and do the task."
+  },
+  {
+    "id": "c4-p1-contract-intake-and-key-data-extractor",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "1",
+    "name": "Contract Intake & Key Data Extractor",
+    "category": "Intake & Plan",
+    "level": "Core",
+    "description": "Upload/paste a contract and extract key parties, dates, money, and special terms into a structured summary.",
+    "text": "You are my real estate transaction assistant.\n\nI will upload or paste a fully executed contract (purchase agreement or listing agreement) for a transaction. Your job is to read it carefully and extract the key data in a structured format.\n\nTASK\n1. Identify and extract the following details:\n   - Property address\n   - Buyer(s) full name(s) and contact info (if present)\n   - Seller(s) full name(s) and contact info (if present)\n   - Buyer’s agent name, brokerage, contact\n   - Listing agent name, brokerage, contact\n   - Purchase price or list price\n   - Earnest money amount and due date\n   - Option/inspection period length and deadline (if applicable)\n   - Financing type and relevant deadlines\n   - Appraisal contingency deadlines\n   - Closing date\n   - Any special conditions or addenda referenced (e.g., HOA addendum, home sale contingency, repairs to be completed before closing)\n2. Present the information in a clear table.\n3. Provide a short plain-language summary (3–5 sentences) of the contract structure and any unusual terms you notice.\n\nHere is the contract:\n[PASTE CONTRACT TEXT HERE OR REFER TO UPLOADED PDF]"
+  },
+  {
+    "id": "c4-p2-transaction-timeline-and-checklist-builder",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "2",
+    "name": "Transaction Timeline & Checklist Builder",
+    "category": "Intake & Plan",
+    "level": "Core",
+    "description": "Convert extracted contract data into a timeline and task checklist with responsibilities.",
+    "text": "You are a transaction coordinator for a real estate agent.\n\nUsing the structured contract data below, generate a transaction timeline and task checklist for this deal.\n\nCONTEXT\n- Market/region: [CITY / STATE]\n- Transaction type: [Buyer-side / Seller-side / Dual]\n- Brokerage-specific notes: [ANY SPECIAL RULES OR DEADLINES YOU KNOW]\n\nHere is the extracted contract data:\n[PASTE TABLE OR SUMMARY FROM PROMPT 1]\n\nTASK\n1. Create a timeline table with columns: Task/Milestone, Due Date, Responsible Party (Agent/Client/Vendor), Notes.\n2. Include at minimum: earnest money, inspection/option period, appraisal, loan approval, repairs negotiation, final walkthrough, closing, and any custom deadlines from the contract.\n3. Split the checklist into two lists:\n   - Internal agent/team tasks.\n   - Client-facing milestones (what the buyer/seller needs to do).\n4. Highlight any items that are time-sensitive within the next 7 days."
+  },
+  {
+    "id": "c4-p3-document-summary-and-issue-finder",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "3",
+    "name": "Document Summary & Issue Finder",
+    "category": "Docs & Risk",
+    "level": "Core",
+    "description": "Summarise long documents (inspection, HOA, lender) and surface issues + recommended next steps.",
+    "text": "You are a document analyst helping a real estate agent understand long documents.\n\nI will upload or paste a document related to a real estate transaction (for example, an inspection report, HOA/condo documents, or a loan estimate).\n\nTASK\n1. Summarise the document in 5–10 bullet points in plain language.\n2. Identify major issues or red flags that may affect the transaction (e.g., structural concerns, safety issues, major systems at end of life, restrictive HOA rules, unusual loan conditions).\n3. Suggest a list of recommended follow-up tasks (e.g., get repair quotes, request credits, clarify fees, consult with lender or attorney), with suggested timing where appropriate.\n4. Provide a shorter version (3–5 bullets) I can share directly with my client.\n\nHere is the document:\n[PASTE OR UPLOAD DOCUMENT]"
+  },
+  {
+    "id": "c4-p4-status-update-email-client-facing",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "4",
+    "name": "Status Update Email (Client-Facing)",
+    "category": "Communication",
+    "level": "Core",
+    "description": "Create a concise, reassuring status update email for a buyer or seller with next steps and dates.",
+    "text": "You are a professional real estate agent writing a concise, reassuring status update email for my client.\n\nCONTEXT\n- Client first name: [NAME]\n- Property address: [ADDRESS]\n- Buyer or seller: [BUYER / SELLER]\n- We are currently between: [MILESTONES, e.g., \"inspection\" and \"appraisal\"]\n- Key upcoming deadlines from the timeline: [PASTE OR DESCRIBE KEY DATES]\n\nTASK\nDraft a friendly, professional email that:\n1. Summarises what has been completed so far.\n2. Lists the next 2–4 key steps with dates.\n3. Clarifies what the client needs to do and by when.\n4. Reassures them that we are on track and that I will guide them through each step.\n\nKeep it under 250 words."
+  },
+  {
+    "id": "c4-p5-multi-party-transaction-summary-email",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "5",
+    "name": "Multi-Party Transaction Summary Email",
+    "category": "Communication",
+    "level": "Advanced",
+    "description": "Summarise status and next steps for all parties: agents, lender, title, etc.",
+    "text": "You are a real estate transaction coordinator drafting a summary email to all relevant parties.\n\nCONTEXT\n- Property address: [ADDRESS]\n- Parties to include: [BUYER AGENT, LISTING AGENT, LENDER, TITLE/ESCROW, etc.]\n- Current stage: [e.g., \"After executed contract,\" \"After inspection completed,\" \"One week before closing\"]\n- Key completed items: [LIST]\n- Key upcoming dates: [LIST FROM TIMELINE]\n\nTASK\n1. Draft a neutral, professional email that:\n   - Summarises completed milestones.\n   - Lists upcoming deadlines and who is responsible.\n   - Clarifies any open items or documents needed.\n2. Use a tone that is cooperative and solution-oriented.\n3. Keep it under 300 words."
+  },
+  {
+    "id": "c4-p6-vendor-relationship-sop",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "6",
+    "name": "Vendor Relationship SOP",
+    "category": "Vendors & Execution",
+    "level": "Advanced",
+    "description": "Design a simple SOP and templates for managing a specific vendor (inspector, appraiser, title, lender, etc.).",
+    "text": "You are helping me build a Vendor Relationship Standard Operating Procedure for real estate transactions.\n\nCONTEXT\n- My role: [REAL ESTATE AGENT / TRANSACTION COORDINATOR].\n- Vendor type: [HOME INSPECTOR / APPRAISER / TITLE COMPANY / LENDER / OTHER].\n- Typical transaction type: [RESIDENTIAL BUYER / SELLER / INVESTOR].\n\nTASK\n1. Draft a short SOP for how I should manage this vendor during a transaction, including:\n   - When I first contact them and what I share.\n   - How and when to schedule services.\n   - How to confirm appointments and expectations.\n   - How and when to follow up for results/reports.\n   - How to address delays or issues.\n2. Suggest 2–3 email templates or message scripts I can reuse with this vendor at different stages (initial request, confirmation, follow-up).\n3. Present the SOP in headings and bullet points so it’s easy to follow."
+  },
+  {
+    "id": "c4-p7-vendor-touchpoints-and-email-templates",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "7",
+    "name": "Vendor Touchpoints & Email Templates",
+    "category": "Vendors & Execution",
+    "level": "Advanced",
+    "description": "Map key vendor touchpoints and generate reusable email/text templates for each step.",
+    "text": "You are a transaction coordinator focused on vendor communication.\n\nVendor type: [e.g., APPRAISER FOR HIGH-VALUE PROPERTIES IN (CITY/AREA)].\n\nTASK\n1. List the essential touchpoints I should have with this vendor during a typical transaction (for example: initial scheduling, confirmation, day-before reminder, post-visit follow-up, issue resolution).\n2. For each touchpoint, draft a short email or message template I can reuse, with placeholders like [Client Name], [Property Address], [Appointment Date/Time].\n3. Keep the language professional and clear."
+  },
+  {
+    "id": "c4-p8-daily-and-weekly-priorities-from-timeline",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "8",
+    "name": "Daily & Weekly Priorities from Timeline",
+    "category": "Vendors & Execution",
+    "level": "Core",
+    "description": "Turn the timeline into a daily/weekly priority list and mini game plan.",
+    "text": "You are my virtual assistant helping me manage priorities.\n\nUsing the transaction timeline and checklist below, identify my daily and weekly priorities.\n\nHere is the timeline/checklist:\n[PASTE TIMELINE OR TASK LIST]\n\nTASK\n1. List the tasks that are due today and within the next 3 days.\n2. List the tasks that are due within the next 7 days.\n3. For each task, include: task name, due date, responsible party, and any short note I should remember.\n4. At the end, give me a short \"game plan\" paragraph for how to tackle today and this week."
+  },
+  {
+    "id": "c4-p9-appointment-confirmation-and-directions",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "9",
+    "name": "Appointment Confirmation & Directions",
+    "category": "Communication",
+    "level": "Core",
+    "description": "Send a short, clear confirmation message for showings/inspections/appraisals with directions.",
+    "text": "You are a real estate agent confirming an upcoming appointment with a client.\n\nCONTEXT\n- Appointment type: [SHOWING / INSPECTION / APPRAISAL / WALKTHROUGH].\n- Date and time: [DATE/TIME].\n- Property address: [ADDRESS].\n- Client first name: [NAME].\n- Any special instructions (parking, gate codes, what to bring): [NOTES].\n\nTASK\nDraft a brief, friendly message (email or text) that:\n1. Confirms the appointment type, date, time, and location.\n2. Provides directions or parking details.\n3. Reminds them of anything they should bring or be aware of.\n4. Is easy to copy and paste."
+  },
+  {
+    "id": "c4-p10-market-trend-response-during-transactions",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "10",
+    "name": "Market Trend Response (During Transactions)",
+    "category": "Communication",
+    "level": "Advanced",
+    "description": "Answer “what’s happening in the market?” for a specific client, area, and property type.",
+    "text": "You are a real estate agent explaining current market trends to a client in the middle of a transaction.\n\nCONTEXT\n- City/Area: [CITY / NEIGHBORHOOD].\n- Property type: [SINGLE-FAMILY / CONDO / TOWNHOME / LUXURY].\n- Client concern: [e.g., \"Are prices dropping?\", \"Is now a bad time to buy?\"].\n\nTASK\n1. Provide a 2–3 paragraph explanation of the current market for this property type and area in plain language.\n2. Address the client’s specific concern and how it relates to their transaction.\n3. Suggest how we might adjust our strategy (if at all) based on the current market.\n4. Keep the tone calm, confident, and data-informed (without promising future outcomes)."
+  },
+  {
+    "id": "c4-p11-post-closing-follow-up-and-checklist",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "11",
+    "name": "Post-Closing Follow-Up & Checklist",
+    "category": "Communication",
+    "level": "Core",
+    "description": "Send a warm congrats with a practical post-closing checklist and light referral ask.",
+    "text": "You are a real estate agent following up with a client after closing.\n\nCONTEXT\n- Client first name: [NAME].\n- Property address: [ADDRESS].\n- Buyer or seller: [BUYER / SELLER].\n\nTASK\n1. Draft a warm, congratulatory message for a client who just closed.\n2. Include a post-closing checklist with 5–10 helpful items (e.g., change locks, update mailing address, set up utilities, file homestead if applicable, organise closing documents).\n3. Invite them to reach out with questions and mention that you are happy to help friends or family who might be thinking about buying or selling."
+  },
+  {
+    "id": "c4-p12-risk-and-red-flag-scan-non-legal",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "12",
+    "name": "Risk & Red-Flag Scan (Non-Legal)",
+    "category": "Docs & Risk",
+    "level": "Advanced",
+    "description": "Scan a contract/doc for potential risk areas and suggest questions to ask broker/attorney (non-legal).",
+    "text": "You are an AI assistant helping a real estate agent identify potential risk areas in a contract or document. You are not a lawyer or legal advisor. You are providing a non-legal, informational review only.\n\nI will paste or upload a contract or document.\n\nTASK\n1. Highlight clauses or sections that might be unusual, unclear, or higher-risk from a practical perspective (e.g., very short inspection periods, unusual fees, strict penalties, unusual contingencies).\n2. For each item, explain in plain language why it might be a concern and what types of questions I might ask my broker or attorney.\n3. Do not give legal advice or tell me what to do. Instead, suggest specific questions I can raise with my broker, attorney, or the other party.\n\nHere is the document:\n[PASTE OR UPLOAD DOCUMENT]"
+  },
+  {
+    "id": "c4-p13-calendar-event-formatting",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "13",
+    "name": "Calendar Event Formatting",
+    "category": "Intake & Plan",
+    "level": "Core",
+    "description": "Convert a timeline into ready-to-add internal and client-facing calendar events.",
+    "text": "You are helping me turn a transaction timeline into calendar events.\n\nHere is my timeline:\n[PASTE TIMELINE TABLE OR LIST]\n\nTASK\n1. Convert this into a list of calendar events with:\n   - Event Title\n   - Date\n   - Suggested Time (default 9:00 AM if not specified)\n   - Short Description\n2. Create two versions:\n   - Internal version with full detail for my calendar.\n   - Client-facing version with only the key milestones (no internal notes or tasks)."
+  },
+  {
+    "id": "c4-p14-conversation-summary-and-next-steps",
+    "className": "AI-Assisted Transactions",
+    "promptNumber": "14",
+    "name": "Conversation Summary & Next Steps",
+    "category": "Communication",
+    "level": "Advanced",
+    "description": "Summarise client calls/meetings, capture commitments, and draft a follow-up recap message.",
+    "text": "You are a note-taking assistant helping me document client conversations.\n\nI will paste notes or a transcript from a call or meeting with a client.\n\nTASK\n1. Summarise the conversation in 5–10 bullet points, focusing on what the client said they want, their concerns, and important facts.\n2. List the next steps I committed to and the next steps the client committed to.\n3. Suggest a short follow-up message I can send to the client recapping the conversation and confirming next steps.\n\nHere are the notes/transcript:\n[PASTE NOTES HERE]"
+  }
+]
