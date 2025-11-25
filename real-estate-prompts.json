@@ -1,0 +1,42 @@
+[
+  {
+    "name": "12-Email Evergreen Nurture for Real Estate Clients (Pro Tone)",
+    "category": "Email Marketing",
+    "level": "Core",
+    "description": "Generate a 12-part evergreen email nurture series with hooks, value content, and CTAs.",
+    "text": "Create a series of 12 engaging email drafts for my real estate clients. Each email should start with a strong hook, offer valuable content (such as market insights, home tips, or community news), and include a clear call to action to encourage client engagement. The tone should be friendly, professional, and suitable for any time of year. As a bonus tip for improved engagement, suggest a short video idea for each email.",
+    "className": "Class 1 – Core Communications & Transactions",
+    "tags": ["lead_gen","client_experience","marketing","buyers","sellers","past_clients","sphere","email"]
+  },
+  {
+    "name": "Funny 12-Email Nurture Series for Real Estate Clients",
+    "category": "Email Marketing",
+    "level": "Advanced",
+    "description": "Generate a 12-part humorous, sarcastic email series for ongoing client nurture.",
+    "text": "Create a series of 12 engaging, laugh-out-loud email drafts for my real estate clients. Each email should open with a clever or sarcastic hook that makes them smile, include valuable info like market insights, home hacks, or local gems, and finish with a call to action that reminds them I am the only real estate agent they would ever want to work with. The tone should be humorous, a little cheeky, but still professional enough to keep Grandma subscribed. Work in lines like: I will help you sell faster than a toddler running from bedtime or Do not trust your cousin Larry just because he got his real estate license last week. For extra engagement, suggest a short, funny video idea for each month that I can link in the email.",
+    "className": "Class 1 – Core Communications & Transactions",
+    "tags": ["lead_gen","client_experience","marketing","buyers","sellers","past_clients","sphere","email"]
+  },
+  {
+    "name": "Table: Funny 12-Email Nurture (Titles & Copy)",
+    "category": "Email Marketing",
+    "level": "Advanced",
+    "description": "Turn the humorous 12-email sequence into a structured table for Canva/Mailchimp.",
+    "text": "Using the following email framework (Title, Subject, Hook, Body, CTA), turn my 12-part humorous real estate email series into a spreadsheet-ready table with columns: Title, Subject, Hook, Body, CTA. Keep the tone cheeky but professional and ensure each CTA clearly points to contacting me for real estate help.",
+    "className": "Class 1 – Core Communications & Transactions",
+    "tags": ["lead_gen","marketing","operations","buyers","sellers","past_clients","sphere","email"]
+  },
+  {
+    "name": "Canva Bulk Create – Turn Email Series into Graphics",
+    "category": "Design & Systems",
+    "level": "Core",
+    "description": "Turn a spreadsheet of email content into Canva designs using Bulk Create.",
+    "text": "Act as my Canva production assistant. Using a spreadsheet that contains columns for Title, Subject Line, Hook, Body, and CTA, walk me step-by-step through using Canva Bulk Create to turn those rows into individual email or social graphics. Include which template type to choose, how to open the Bulk Create app, how to paste data, how to connect each column to placeholders, and how to generate and export all designs at once.",
+    "className": "Class 1 – Core Communications & Transactions",
+    "tags": ["marketing","operations","lead_gen","buyers","sellers","past_clients","sphere","email","social_media"]
+  },
+  {
+    "name": "Listing Timeline – Contract to Close",
+    "category": "Transaction Management (Sellers)",
+    "level": "Core",
+    "description": "Crea
