@@ -1,42 +1,219 @@
 [
   {
     "name": "12-Email Evergreen Nurture for Real Estate Clients (Pro Tone)",
+    "className": "Core Communications & Transactions",
     "category": "Email Marketing",
     "level": "Core",
     "description": "Generate a 12-part evergreen email nurture series with hooks, value content, and CTAs.",
     "text": "Create a series of 12 engaging email drafts for my real estate clients. Each email should start with a strong hook, offer valuable content (such as market insights, home tips, or community news), and include a clear call to action to encourage client engagement. The tone should be friendly, professional, and suitable for any time of year. As a bonus tip for improved engagement, suggest a short video idea for each email.",
-    "className": "Class 1 – Core Communications & Transactions",
-    "tags": ["lead_gen","client_experience","marketing","buyers","sellers","past_clients","sphere","email"]
+    "tags": ["real_estate", "email", "lead_gen", "nurture", "systems", "content", "buyers", "sellers", "past_clients"]
   },
   {
     "name": "Funny 12-Email Nurture Series for Real Estate Clients",
+    "className": "Core Communications & Transactions",
     "category": "Email Marketing",
     "level": "Advanced",
     "description": "Generate a 12-part humorous, sarcastic email series for ongoing client nurture.",
-    "text": "Create a series of 12 engaging, laugh-out-loud email drafts for my real estate clients. Each email should open with a clever or sarcastic hook that makes them smile, include valuable info like market insights, home hacks, or local gems, and finish with a call to action that reminds them I am the only real estate agent they would ever want to work with. The tone should be humorous, a little cheeky, but still professional enough to keep Grandma subscribed. Work in lines like: I will help you sell faster than a toddler running from bedtime or Do not trust your cousin Larry just because he got his real estate license last week. For extra engagement, suggest a short, funny video idea for each month that I can link in the email.",
-    "className": "Class 1 – Core Communications & Transactions",
-    "tags": ["lead_gen","client_experience","marketing","buyers","sellers","past_clients","sphere","email"]
+    "text": "Create a series of 12 engaging, laugh-out-loud email drafts for my real estate clients. Each email should open with a clever or sarcastic hook that makes them smile (or snort their coffee), include valuable info like market insights, home hacks, or local gems, and finish with a call to action that reminds them I'm the only real estate agent they'd ever want to work with—and if they forget, they may need a CAT scan. The tone should be humorous, a little cheeky, but still professional enough to keep Grandma subscribed. Work in lines like: “I’ll help you sell faster than a toddler running from bedtime” or “Don’t trust your cousin Larry just because he got his real estate license last week.” For extra engagement, suggest a short, funny video idea for each month that I can link in the email.",
+    "tags": ["real_estate", "email", "humor", "brand_voice", "nurture", "buyers", "sellers", "content", "sphere", "past_clients"]
   },
   {
     "name": "Table: Funny 12-Email Nurture (Titles & Copy)",
+    "className": "Core Communications & Transactions",
     "category": "Email Marketing",
     "level": "Advanced",
     "description": "Turn the humorous 12-email sequence into a structured table for Canva/Mailchimp.",
     "text": "Using the following email framework (Title, Subject, Hook, Body, CTA), turn my 12-part humorous real estate email series into a spreadsheet-ready table with columns: Title, Subject, Hook, Body, CTA. Keep the tone cheeky but professional and ensure each CTA clearly points to contacting me for real estate help.",
-    "className": "Class 1 – Core Communications & Transactions",
-    "tags": ["lead_gen","marketing","operations","buyers","sellers","past_clients","sphere","email"]
+    "tags": ["real_estate", "email", "humor", "templates", "systems", "content", "nurture", "buyers", "sellers", "past_clients"]
   },
   {
     "name": "Canva Bulk Create – Turn Email Series into Graphics",
+    "className": "Core Communications & Transactions",
     "category": "Design & Systems",
     "level": "Core",
     "description": "Turn a spreadsheet of email content into Canva designs using Bulk Create.",
-    "text": "Act as my Canva production assistant. Using a spreadsheet that contains columns for Title, Subject Line, Hook, Body, and CTA, walk me step-by-step through using Canva Bulk Create to turn those rows into individual email or social graphics. Include which template type to choose, how to open the Bulk Create app, how to paste data, how to connect each column to placeholders, and how to generate and export all designs at once.",
-    "className": "Class 1 – Core Communications & Transactions",
-    "tags": ["marketing","operations","lead_gen","buyers","sellers","past_clients","sphere","email","social_media"]
+    "text": "Act as my Canva production assistant. Using a spreadsheet that contains columns for Title, Subject Line, Hook, Body, and CTA, walk me step-by-step through using Canva Bulk Create to turn those rows into individual email or social graphics. Include: which template type to choose, how to open the Bulk Create app, how to paste data, how to connect each column to placeholders, and how to generate and export all designs at once.",
+    "tags": ["real_estate", "design", "canva", "systems", "templates", "email", "social_media", "marketing", "operations"]
   },
   {
     "name": "Listing Timeline – Contract to Close",
+    "className": "Core Communications & Transactions",
     "category": "Transaction Management (Sellers)",
     "level": "Core",
-    "description": "Crea
+    "description": "Create a listing-side timeline from contract to close.",
+    "text": "You are my listing-side transaction coordinator. Create a timeline of key dates from contract to close for my listing at [PROPERTY ADDRESS]. CONTEXT: Executed contract date: [EXECUTED DATE]. Closing date: [CLOSING DATE]. TASK: 1) List all key milestones, including: option/inspection period start and end, appraisal ordered, appraisal due date, loan approval deadline, repairs negotiation deadline, final walkthrough, and closing. 2) For each milestone, provide: Task/Milestone name, Due Date, Responsible Party (Listing Agent, Seller, Buyer’s Agent, Lender, Title), and a short Note. 3) Create two versions: a) Internal Agent Timeline with more detailed notes and reminders; b) Client-Friendly Seller Timeline using plain language focused on what the seller needs to do and remember. OUTPUT FORMAT: Return two separate markdown tables with headings: \"Internal Listing Timeline\" and \"Client-Friendly Seller Timeline.\" Each table should have columns: Task/Milestone, Due Date, Responsible Party, Notes.",
+    "tags": ["real_estate", "transaction_management", "sellers", "timeline", "systems", "listings"]
+  },
+  {
+    "name": "Listing Transaction Coordinator Checklist",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Management (Sellers)",
+    "level": "Core",
+    "description": "Build a checklist for listing transaction coordination with dates.",
+    "text": "You are my listing transaction coordinator. Build a detailed checklist for coordinating a listing-side transaction with due dates based on the executed contract date of [EXECUTED DATE] for [PROPERTY ADDRESS]. TASK: 1) Organise the checklist by timeframes: a) First 3 days after execution, b) During option/inspection period, c) Pre-appraisal, d) Post-appraisal to loan approval, e) Week before closing, f) Closing day. 2) Include tasks for: me as the listing agent, my seller, the buyer’s agent, the lender, and the title company. 3) For each task, include: Task Name, Suggested Due Date, Responsible Party, and Notes. 4) Split the output into two lists: a) Internal Agent/Team Checklist; b) Client-Facing Seller Checklist (only what the seller needs to do, in simple language). OUTPUT FORMAT: Use headings for each timeframe and bullet lists under each heading. For the internal list, also include a markdown table with columns: Task, Due Date, Responsible Party, Notes.",
+    "tags": ["real_estate", "transaction_management", "sellers", "systems", "checklist", "listings"]
+  },
+  {
+    "name": "Listing – Week Before Closing Checklist",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Management (Sellers)",
+    "level": "Core",
+    "description": "Reminder of tasks the week before closing.",
+    "text": "You are my listing-side closing assistant. Remind me what to do the week before closing on a listing at [PROPERTY ADDRESS]. TASK: 1) Create a short checklist for me as the listing agent and a separate checklist for the seller. 2) Include items related to: final walkthrough prep, confirming repairs completion, confirming utilities transfer dates, keys/garage remotes, forwarding address, title company confirmations, and any occupancy/move-out details. 3) Keep the seller-facing checklist very simple and action-oriented. OUTPUT FORMAT: Use two sections with headings: \"Agent Tasks – Week Before Closing\" and \"Seller Tasks – Week Before Closing.\" Under each, provide 5–10 bullet points.",
+    "tags": ["real_estate", "transaction_management", "sellers", "checklist", "closing", "listings"]
+  },
+  {
+    "name": "Seller Email – Next Steps After Going Under Contract",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Communication",
+    "level": "Core",
+    "description": "Explain next steps to seller once listing goes under contract.",
+    "text": "You are a professional real estate agent writing a clear next-steps email to a seller whose home just went under contract at [PROPERTY ADDRESS]. CONTEXT: Seller first name: [SELLER NAME]. Executed contract date: [EXECUTED DATE]. Closing date: [CLOSING DATE]. TASK: Draft an email that: 1) Briefly celebrates and summarises where we are now (offer accepted and under contract). 2) Lists the next key milestones over the next 7–10 days (option/inspection, appraisal scheduling, loan approval process starting, title work). 3) Clearly shows what I will handle vs what the seller needs to do with simple bullets. 4) Provides 2–3 key dates in bold so they stand out. 5) Reassures the seller that I will keep them updated and guide them through each step. CONSTRAINTS: Tone: clear, calm, confident, and encouraging. Length: 150–220 words. Use placeholders like [SELLER NAME], [PROPERTY ADDRESS], [DATE] as needed. OUTPUT FORMAT: Provide 3 subject line options, then the email body as a single block of text.",
+    "tags": ["real_estate", "email", "transaction_management", "sellers", "communication", "listings"]
+  },
+  {
+    "name": "Email – Send Executed Contract to Title (CC Seller)",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Communication",
+    "level": "Core",
+    "description": "Email template for sending executed contract to title.",
+    "text": "You are a listing agent sending an executed contract package to the title company, CC’ing the seller, for [PROPERTY ADDRESS]. TASK: Draft a professional, concise email that includes: 1) A short subject line summarising the file (for example, \"New Contract – [PROPERTY ADDRESS] – Closing [CLOSING DATE]\"). 2) A brief intro stating that the executed contract and related documents are attached. 3) A summary of key details: property address, buyer and seller names, contract sales price, closing date, option period length, and any notable terms (HOA, home sale contingency, leaseback, etc.). 4) A request for title to confirm receipt and outline next steps or any information they need from the parties. 5) A friendly closing line. CONSTRAINTS: Length: under 200 words. Use placeholders like [TITLE CONTACT NAME], [BUYER NAME], [SELLER NAME], [PRICE], [CLOSING DATE]. OUTPUT FORMAT: Provide 2 subject line options, then the email body as a single block of text.",
+    "tags": ["real_estate", "email", "transaction_management", "sellers", "vendors", "title", "listings"]
+  },
+  {
+    "name": "Weekly Seller Status Update Email Template",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Communication",
+    "level": "Core",
+    "description": "Reusable weekly update email template for sellers.",
+    "text": "You are a listing agent writing a reusable weekly status update email for a seller at [PROPERTY ADDRESS]. CONTEXT: These updates are typically sent on [DAY OF WEEK, e.g., Friday]. TASK: Create a template email that includes clearly labeled sections for: 1) Showings & Feedback This Week; 2) Marketing Activity (online views, inquiries, open houses); 3) Market Updates (any notable new listings, pendings, or price changes nearby); 4) Upcoming Key Dates (inspections, appraisal, option end, closing); 5) Recommended Next Steps (pricing, condition, marketing tweaks). CONSTRAINTS: Write this as a template, using placeholders in square brackets like [SELLER NAME], [PROPERTY ADDRESS], [SHOWING COUNT], [LINK TO REPORT]. Length: 160–230 words. Tone: proactive, calm, and transparent. OUTPUT FORMAT: Provide 3 subject line options, then the email body as a single template with all sections clearly labeled using subheadings or bold labels.",
+    "tags": ["real_estate", "email", "transaction_management", "sellers", "templates", "communication", "listings"]
+  },
+  {
+    "name": "Text – Quick Seller Update After Inspection",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Communication",
+    "level": "Core",
+    "description": "Quick text to seller after inspection is complete.",
+    "text": "You are a listing agent sending a quick text update to a seller after the buyer’s inspection is completed on [PROPERTY ADDRESS]. TASK: Write 3 slightly different text message options that: 1) Confirm that the inspection has been completed. 2) Set expectations for when I’ll review the report and follow up (for example, within 24–48 hours). 3) Keep the tone calm and reassuring. CONSTRAINTS: Each text should be under 35 words. Use placeholders like [SELLER NAME] and [PROPERTY ADDRESS]. OUTPUT FORMAT: Provide the 3 options as a numbered list.",
+    "tags": ["real_estate", "sms_text", "sellers", "transaction_management", "communication", "inspections"]
+  },
+  {
+    "name": "5-Text Seller Update Series – Contract to Close",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Communication",
+    "level": "Advanced",
+    "description": "5-part text series from offer accepted to closing.",
+    "text": "You are a listing agent creating a 5-part text update series for a seller from offer acceptance to closing on [PROPERTY ADDRESS]. TASK: Write 5 short texts labeled: 1) Day 0 – Offer Accepted, 2) During Option/Inspection Period, 3) Appraisal Ordered, 4) Clear to Close, 5) Day Before Closing. For each text: explain in plain language what just happened, state what is coming next, and clarify if the seller needs to do anything now. CONSTRAINTS: Each text must be under 40 words. Tone: warm, confident, and proactive. Use placeholders like [SELLER NAME], [PROPERTY ADDRESS], [DATE]. OUTPUT FORMAT: List the 5 texts in order with headings for each stage.",
+    "tags": ["real_estate", "sms_text", "sellers", "transaction_management", "automation", "listings"]
+  },
+  {
+    "name": "Text – Seller Utilities & Mail Reminder",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Communication",
+    "level": "Core",
+    "description": "Reminder for sellers to handle utilities and mail.",
+    "text": "You are a listing agent sending a reminder text to a seller to handle utilities and mail before closing or move-out at [PROPERTY ADDRESS]. TASK: Draft 2–3 short text options that remind the seller to: cancel or transfer utilities (electric, gas, water, trash, internet) and set up mail forwarding. CONSTRAINTS: Each text under 35 words. Tone: friendly and practical. Use placeholders like [SELLER NAME] and [CLOSING DATE]. OUTPUT FORMAT: Provide the options as a numbered list.",
+    "tags": ["real_estate", "sms_text", "sellers", "transaction_management", "closing", "move_out"]
+  },
+  {
+    "name": "Plain-English Listing Agreement Summary for Sellers",
+    "className": "Core Communications & Transactions",
+    "category": "Docs & Education",
+    "level": "Core",
+    "description": "Summarise listing contract for seller.",
+    "text": "You are a real estate agent helping a seller understand their listing agreement in plain English. I will paste the listing agreement or a summary of the key terms. TASK: 1) Summarise the key points in 5–10 short bullet points, focusing on: list price, commission, term/length of the agreement, cancellation clause, marketing/MLS exposure, seller obligations, and any special conditions. 2) Avoid legal jargon and explain everything in friendly, everyday language. 3) Add a final note reminding the seller that they can ask me, my broker, or their attorney if they have legal questions. CONSTRAINTS: You are not giving legal advice; this is an informational summary only. Keep the entire summary under 250 words. OUTPUT FORMAT: Bullet list followed by a 1–2 sentence wrap-up.",
+    "tags": ["real_estate", "docs", "sellers", "education", "transaction_management", "listings"]
+  },
+  {
+    "name": "Seller Closing Day Checklist",
+    "className": "Core Communications & Transactions",
+    "category": "Client Resources",
+    "level": "Core",
+    "description": "Checklist for sellers on closing day.",
+    "text": "You are a listing agent creating a seller closing day checklist for [PROPERTY ADDRESS]. TASK: 1) Generate a clear, client-facing checklist of what the seller should bring and expect on closing day, including: IDs, keys, garage remotes, mailbox keys, gate fobs, utility readings, receipts for agreed repairs, and forwarding address information. 2) Add 3–5 bullets about what to expect at the closing appointment (signing documents, timing for funds, when buyers get keys, etc.). CONSTRAINTS: Use simple bullet points and short phrases. Tone: friendly, clear, and reassuring. OUTPUT FORMAT: Provide a heading \"Seller Closing Day Checklist\" and then 10–15 bullet points.",
+    "tags": ["real_estate", "sellers", "transaction_management", "checklist", "client_experience", "closing"]
+  },
+  {
+    "name": "Seller-Friendly Summary of Buyer Repair Requests",
+    "className": "Core Communications & Transactions",
+    "category": "Negotiation Support",
+    "level": "Core",
+    "description": "Summarise buyer repair requests with agent recommendations.",
+    "text": "You are a listing agent summarising buyer repair requests for a seller in plain language. INPUT: I will paste the list of requested repairs or attach a summary: [PASTE ISSUES]. TASK: 1) Group the items into categories: Safety, Structural, Systems/Mechanical, Cosmetic, and Optional/Nice-to-Have. 2) For each item, provide: a short plain-English description and a suggested approach labeled as one of: Recommend Repair, Consider Credit, or Likely Decline. 3) Add a short intro paragraph explaining the overall themes of the requests. 4) Add a short closing paragraph setting up a strategy discussion with the seller (without giving legal advice). CONSTRAINTS: Keep the whole summary under 400 words. Use friendly, non-alarmist language. OUTPUT FORMAT: Intro paragraph, then a markdown table with columns: Category, Item, Suggested Approach, Notes, followed by a short closing paragraph.",
+    "tags": ["real_estate", "negotiation", "sellers", "transaction_management", "docs", "inspections"]
+  },
+  {
+    "name": "Seller Under-Contract \"What to Expect\" Guide",
+    "className": "Core Communications & Transactions",
+    "category": "Client Resources",
+    "level": "Advanced",
+    "description": "Guide for sellers on what to expect once under contract.",
+    "text": "You are a listing agent creating a \"What to Expect\" guide for sellers once they are under contract on their home at [PROPERTY ADDRESS]. CONTEXT: Market/Region: [CITY/AREA]. Typical closing timeframe: [X] days. TASK: 1) Break the process into clear sections: Inspections, Appraisal, Loan Approval, Title Work, Repairs Negotiation, and Closing. 2) For each section, explain in 2–4 short bullets: what happens, approximate timing, what the seller needs to do, and what I will handle. 3) Include a simple timeline overview from contract to closing at the top. 4) Add a short FAQ section (3–5 common seller questions) with concise answers. CONSTRAINTS: Client-facing language, no legal advice. Total length: approximately 500–700 words. OUTPUT FORMAT: Use headings for each phase, bullet points under each, plus a short intro and closing paragraph.",
+    "tags": ["real_estate", "sellers", "transaction_management", "client_experience", "docs", "education"]
+  },
+  {
+    "name": "Seller Closing Thank-You Letter Template",
+    "className": "Core Communications & Transactions",
+    "category": "Client Experience",
+    "level": "Core",
+    "description": "Thank-you letter for sellers at closing.",
+    "text": "You are a real estate agent writing a warm thank-you letter to sellers at closing on [PROPERTY ADDRESS]. CONTEXT: Seller names: [SELLER NAMES]. Closing date: [CLOSING DATE]. TASK: 1) Draft a 150–220 word letter that: a) expresses gratitude for the opportunity to represent them, b) acknowledges any special aspects of their sale (long-term home, big life transition, move out of state, etc.), c) wishes them well in their next chapter, and d) gently reminds them that I am available for future questions and referrals. 2) Include one or two lines that make it easy to mention me if friends or family talk about real estate. CONSTRAINTS: Tone: warm, sincere, and personal (but still usable as a template). Use placeholders like [SELLER FIRST NAMES], [NEW CITY], [AGENT NAME]. OUTPUT FORMAT: Provide 2 subject line options (for email use) and then the letter body as a single block of text that could be used in print or email.",
+    "tags": ["real_estate", "sellers", "client_experience", "referrals", "email", "closing"]
+  },
+  {
+    "name": "Seller Post-Closing Follow-Up Touch Plan",
+    "className": "Core Communications & Transactions",
+    "category": "Client Experience",
+    "level": "Advanced",
+    "description": "Follow-up plan for sellers after closing.",
+    "text": "You are my client nurture strategist. Help me write a post-closing follow-up plan for sellers after we close on [PROPERTY ADDRESS]. TASK: 1) Create a 12-month touch plan with contacts at 1 week, 1 month, 3 months, 6 months, and 12 months after closing. 2) For each touch, specify: contact method (call, text, email, handwritten note, small gift), a suggested message theme, and a short example script or bullet outline. 3) Include at least one light-touch referral reminder in a natural, non-pushy way. 4) At the end, briefly summarise how this plan helps with repeat and referral business. OUTPUT FORMAT: Present the plan as a markdown table with columns: Timing, Channel, Theme, Example Script/Notes. Then provide a short paragraph summarising the strategy.",
+    "tags": ["real_estate", "sellers", "client_experience", "nurture", "systems", "past_clients", "referrals"]
+  },
+  {
+    "name": "Buyer Timeline – Contract to Closing",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Management (Buyers)",
+    "level": "Core",
+    "description": "Create a buyer-side transaction timeline to closing.",
+    "text": "You are my buyer-side transaction coordinator. Create a detailed buyer transaction timeline based on a closing date of [CLOSING DATE] for [PROPERTY ADDRESS]. CONTEXT: Executed contract date: [EXECUTED DATE]. Financing type: [CONVENTIONAL/FHA/VA/CASH]. TASK: 1) List key milestones from contract to closing, including: option/inspection period, appraisal ordered, appraisal due date, loan docs to underwriting, loan approval, clear to close, final walkthrough, and closing. 2) For each milestone, include: Task/Milestone name, Due Date, Responsible Party (Buyer, Buyer’s Agent, Lender, Title, Others), and Notes. 3) Create two versions: a) Internal Agent Timeline with more detailed notes and reminders; b) Client-Friendly Buyer Timeline in plain language focused on what the buyer needs to do and remember. OUTPUT FORMAT: Return two markdown tables labeled \"Internal Buyer Timeline\" and \"Client-Friendly Buyer Timeline\" with columns: Task/Milestone, Due Date, Responsible Party, Notes.",
+    "tags": ["real_estate", "buyers", "transaction_management", "timeline", "systems", "escrow"]
+  },
+  {
+    "name": "Buyer Transaction Checklist – Contract to Closing",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Management (Buyers)",
+    "level": "Core",
+    "description": "Checklist for buyer transaction from executed contract to close.",
+    "text": "You are my buyer transaction coordinator. Build a checklist for managing a buyer transaction from executed contract to close for [PROPERTY ADDRESS]. TASK: 1) Organise tasks by timeframe: a) First 3 days after execution, b) During option/inspection period, c) Pre-appraisal, d) Post-appraisal to loan approval, e) Week before closing, f) Closing day. 2) Include responsibilities for both me as the buyer’s agent and the buyer (and note when lender or title is involved). 3) For each task, include: Task, Responsible Party, Suggested Due Date, and Notes. 4) Split the output into two sections: Internal Agent/Team Checklist and Client-Facing Buyer Checklist written in simple, client-friendly language. OUTPUT FORMAT: Use headings for each timeframe and bullet lists for each section. Include at least one markdown table summarising the internal checklist.",
+    "tags": ["real_estate", "buyers", "transaction_management", "checklist", "escrow"]
+  },
+  {
+    "name": "Buyer Option Period Reminder Checklist",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Management (Buyers)",
+    "level": "Core",
+    "description": "Reminders for buyers during option period.",
+    "text": "You are a buyer’s agent helping your client use their option period wisely on [PROPERTY ADDRESS]. TASK: Create a simple checklist I can share with my buyer that includes: 1) Scheduling the general inspection (and any specialty inspections if needed). 2) Attending the inspection and preparing questions. 3) Reviewing the inspection report. 4) Deciding on repairs vs credits vs acceptance as-is. 5) Watching key contract deadlines (option end date, repair request deadline if different). CONSTRAINTS: Use clear, buyer-facing language. Include a short intro and then 8–12 bullet points. Highlight the option end date as a key deadline. OUTPUT FORMAT: Heading + short intro paragraph + bullet list.",
+    "tags": ["real_estate", "buyers", "transaction_management", "education", "inspections", "option_period"]
+  },
+  {
+    "name": "Email – Schedule Buyer Inspection & Set Expectations",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Communication",
+    "level": "Core",
+    "description": "Email to buyer about inspection scheduling and expectations.",
+    "text": "You are a buyer’s agent emailing your client about scheduling the home inspection for [PROPERTY ADDRESS]. CONTEXT: Buyer first name: [BUYER NAME]. Option period end date: [OPTION END]. TASK: Draft an email that: 1) Explains why the inspection is important. 2) Tells them how and when we’ll schedule it (and whether I will handle it or they will). 3) Clarifies whether they should attend and what to bring/expect during the inspection. 4) Outlines what happens after we receive the report (review, prioritize concerns, decide on repairs/credits). 5) Reminds them of the option period deadline. CONSTRAINTS: Tone: clear, calm, and reassuring. Length: 170–230 words. OUTPUT FORMAT: Provide 2 subject line options and then the email body as a single block of text.",
+    "tags": ["real_estate", "buyers", "email", "transaction_management", "education", "inspections"]
+  },
+  {
+    "name": "Email – Wiring Funds & Closing Day Info for Buyers",
+    "className": "Core Communications & Transactions",
+    "category": "Transaction Communication",
+    "level": "Core",
+    "description": "Email instructions for wiring funds and closing expectations.",
+    "text": "You are a buyer’s agent emailing your client about wiring funds and what to expect on closing day for their purchase of [PROPERTY ADDRESS]. CONTEXT: Buyer first name: [BUYER NAME]. Closing date and time: [CLOSING DATE/TIME]. Title company: [TITLE COMPANY NAME]. TASK: Draft an email that: 1) Explains how and when they will receive official wiring instructions (and to never trust unsolicited emails). 2) Emphasises the importance of calling the title company directly to verify wire details (wire fraud warning). 3) Lists what they need to bring to closing (IDs, any paper checks if applicable, etc.). 4) Briefly explains what will happen at the closing appointment and what happens immediately after closing (keys, possession, funding). CONSTRAINTS: Tone: clear, safety-conscious, and reassuring. Length: 200–260 words. Include a short bolded warning about wire fraud. OUTPUT FORMAT: Provide 2 subject line options and the email body.",
+    "tags": ["real_estate", "buyers", "email", "transaction_management", "docs", "wiring", "closing"]
+  }
+]
+
