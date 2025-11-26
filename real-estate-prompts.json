@@ -141,7 +141,7 @@
     "level": "Core",
     "description": "Thank-you letter for sellers at closing.",
     "text": "You are a real estate agent writing a warm thank-you letter to sellers at closing on [PROPERTY ADDRESS]. CONTEXT: Seller names: [SELLER NAMES]. Closing date: [CLOSING DATE]. TASK: 1) Draft a 150–220 word letter that: a) expresses gratitude for the opportunity to represent them, b) acknowledges any special aspects of their sale (long-term home, big life transition, move out of state, etc.), c) wishes them well in their next chapter, and d) gently reminds them that I am available for future questions and referrals. 2) Include one or two lines that make it easy to mention me if friends or family talk about real estate. CONSTRAINTS: - Tone: warm, sincere, and personal (but still usable as a template). - Use placeholders like [SELLER FIRST NAMES], [NEW CITY], [AGENT NAME]. OUTPUT FORMAT: Provide 2 subject line options (for email use) and then the letter body as a single block of text that could be used in print or email.",
-    "tags": ["client_experience", "marketing", "lead_gen", "sellers", "past_clients", "sphere", "email"]
+    "tags": ["client_experience", "marketing", "lead_gen", "sellers", "past_clients", "sphere", "email", "closing"]
   },
   {
     "name": "Seller Post-Closing Follow-Up Touch Plan",
@@ -358,6 +358,70 @@
     "description": "Teach AI a reusable real estate–focused prompt structure and generate a template you can reuse.",
     "text": "You are my AI prompt engineer for real estate. Help me build a reusable prompt template I can use for most real estate tasks. TASK: 1) Explain briefly the core components of a strong prompt: role, goal, context/inputs",
     "tags": ["operations", "education", "systems"]
+  },
+  {
+    "name": "Facebook Viral Format Analyzer",
+    "category": "Social Media – Facebook",
+    "level": "Advanced",
+    "description": "Analyze high-performing niche pages to reverse-engineer 10 viral post formats you can reuse.",
+    "text": "Act as a Facebook content strategist. Analyze the last 20 posts from pages in my niche and give me 10 post formats proven to go viral, with hooks, angles, and examples I can copy.",
+    "tags": ["social_media", "facebook", "content_strategy", "competitive_analysis", "virality", "marketing"]
+  },
+  {
+    "name": "30-Day Facebook Content Plan Builder",
+    "category": "Social Media – Facebook",
+    "level": "Advanced",
+    "description": "Build a full 30-day Facebook content calendar focused on reach and engagement.",
+    "text": "Create a 30-day Facebook content plan focused on reach + engagement. Include hooks, story angles, carousel ideas, and CTAs for each day.",
+    "tags": ["social_media", "facebook", "content_calendar", "planning", "engagement", "marketing"]
+  },
+  {
+    "name": "Hook–Story–Lesson Facebook Post Builder",
+    "category": "Social Media – Facebook",
+    "level": "Core",
+    "description": "Turn a raw idea into a structured, high-performing Facebook post using Hook → Story → Lesson → CTA.",
+    "text": "Turn this idea into a Facebook-optimized post using the format: Hook → Relatable Story → Sharp Lesson → CTA. Make it bold, conversational, and shareable: {paste your idea}.",
+    "tags": ["social_media", "facebook", "copywriting", "hooks", "storytelling", "engagement"]
+  },
+  {
+    "name": "Facebook Engagement Rewrite Optimizer",
+    "category": "Social Media – Facebook",
+    "level": "Core",
+    "description": "Rewrite an existing Facebook post to maximize comments, saves, and engagement.",
+    "text": "Rewrite my Facebook post to maximize comments and saves. Add open loops, curiosity triggers, and punchier sentence flow: {paste post}.",
+    "tags": ["social_media", "facebook", "engagement", "copywriting", "optimization", "marketing"]
+  },
+  {
+    "name": "Facebook Hook Generator (15 Hooks)",
+    "category": "Social Media – Facebook",
+    "level": "Core",
+    "description": "Generate 15 bold, scroll-stopping Facebook hooks tailored to your niche.",
+    "text": "Give me 15 Facebook hooks tailored to my niche. Make them bold, scroll-stopping, and built around tension, fear of missing out, or status.",
+    "tags": ["social_media", "facebook", "hooks", "copywriting", "lead_gen", "marketing"]
+  },
+  {
+    "name": "Facebook Reel Script Generator",
+    "category": "Social Media – Facebook",
+    "level": "Core",
+    "description": "Create a short 15–25 second Facebook Reel script with problem, solution, and strong CTA.",
+    "text": "Create a Facebook reel script (15–25 seconds) that introduces a problem, offers a quick solution, and ends with a strong CTA. Topic: {your topic}.",
+    "tags": ["social_media", "facebook", "reels", "video", "short_form", "marketing"]
+  },
+  {
+    "name": "Facebook Personal Authority Posts",
+    "category": "Social Media – Facebook",
+    "level": "Advanced",
+    "description": "Generate 10 authority-building posts that show expertise without sounding salesy.",
+    "text": "Generate 10 ‘personal authority’ Facebook posts that show expertise without sounding salesy. Include short stories, credibility triggers, and lessons.",
+    "tags": ["social_media", "facebook", "authority", "branding", "storytelling", "marketing"]
+  },
+  {
+    "name": "Short Viral Facebook Post Converter",
+    "category": "Social Media – Facebook",
+    "level": "Core",
+    "description": "Convert a long-form idea into a short, mobile-friendly viral Facebook post under 6 lines.",
+    "text": "Turn this long-form idea into a short viral Facebook post under 6 lines, optimized for mobile scrolling and shares: {paste your text}.",
+    "tags": ["social_media", "facebook", "copywriting", "virality", "short_form", "marketing"]
   }
 ]
 
